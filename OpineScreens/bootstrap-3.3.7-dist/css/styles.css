@@ -1,0 +1,239 @@
+﻿body {
+}
+a {
+color: #00838F;
+}
+.navbar-inverse {
+  background-color: #0097A7;
+  border-color: #0097A7;
+  border-radius:0px;
+}
+.navbar-brand {
+font-size:28px;
+}
+.navbar-inverse .navbar-brand {
+  color: #fff;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #fff;
+  background-color: #00838F;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: #00838F;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #00838F;
+}
+.navbar-inverse .navbar-toggle {
+  border-color: #00838F;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #00838F;
+}
+/*.breadcrumb{
+  margin-top: 50px;
+}
+.breadcrumb > li + li:before {
+  content: "\00a0";
+}*/
+.secondnavbaar {
+margin-top: 50px;
+}
+/*.panel {
+  background-color: #0097A7;
+  border: 1px solid #0097A7;
+}*/
+/*.panel-default {
+  border-color: #0097A7;
+}*/
+/*.panel-title {
+  font-size: 20px;
+}
+.panel-default > .panel-heading {
+  color: #fff;
+  background-color: #0097A7;
+  border-color: #0097A7;
+}*/
+.btn-primary {
+  color: #fff;
+  background-color: #00838F;
+  border-color: #00838F;
+}
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #fff;
+  background-color: #006064;
+  border-color: #006064;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #006064;
+  border-color: #006064;
+}
+blockquote {
+  border-left: 7.5px solid #26C6DA;
+}
+.blockquote-reverse {
+  border-right: 7.5px solid #00838F;
+}
+.btn-light {
+  color: #fff;
+  background-color: #555;
+  border-color: #555;
+}
+.btn-light:focus,
+.btn-light.focus {
+  color: #fff;
+  background-color: #777;
+  border-color: #777;
+}
+.btn-light:hover {
+  color: #fff;
+  background-color: #777;
+  border-color: #777;
+}
+.btn-light:active,
+.btn-light.active,
+.open > .dropdown-toggle.btn-light {
+  color: #fff;
+  background-color: #777;
+  border-color: #777;
+}
+.showBadge {
+position:relative;
+top:-10px;
+}
+.showBadge:hover {
+cursor:pointer;
+background-color:#fff;
+color:#777;
+}
+/*#E0F7FA*/
+
+
+/*=============Main Section Home page===================================*/
+.main-container {
+    margin:20px;
+    padding:20px;
+    font-size:115%;
+    background-color:#fff;
+}
+.side-right {
+    margin:20px;
+    padding:20px;
+    font-size:108%;
+    background-color:#fff;
+}
+.side-right button{
+    border-bottom: 2px solid #fff;
+}
+.imgsideBar {
+    margin:20px;
+border-radius:5px;
+}
+/*=============Sidebar Home page===================================*/
+.navbar-toggle-left {
+  position: relative;
+  float: left;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.navbar-toggle-left .sidebar-left-toggler {
+  display: block;
+  color:#fff;
+}
+.navbar-toggle-left:focus {
+  outline: 0;
+}
+/*.navbar-toggle-left .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+.navbar-toggle-left .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+.glyphicon glyphicon-list{
+font-size:150%;
+}*/
+.customToggler {
+margin-top:0px;
+margin-bottom:-5px;
+font-weight:normal;
+}
+/*Left Menu Sidebar*/
+#sidebar-wrapper {
+z-index:1;
+padding-top:18px;
+position:absolute;
+top:50px;
+width:0px;
+height:100%;
+overflow-y:hidden;
+background:#f1ffff;
+font-size:120%;
+}
+#page-container-wrapper {
+width:100%;
+position:absolute;
+padding:15px;
+}
+#wrapper.menuDisplayed #sidebar-wrapper{
+width:250px;
+border-right:1px solid #006064;
+border-bottom:1px solid #006064;
+}
+#wrapper.menuDisplayed #page-container-wrapper{
+padding-left:250px;
+}
+.sidebar-nav {
+padding:0px;
+list-style:none;
+}
+.sidebar-nav li {
+   text-indent:20px; 
+   line-height:40px;
+}
+.sidebar-nav li a{
+   display:block;
+   text-decoration:none;
+   color:#555;
+}
+.sidebar-nav li a:hover{
+   background-color:#4dd0E1;
+   border-radius:3px;
+}
+.rightsidebarspan {
+margin-right:15px;
+}
+.badgeRightSpan {
+text-indent:0px;
+background-color:#0097A7;
+}
+.right-link-heading label{
+color:#888;
+position:relative;
+left:13px;
+font-size:85%;
+padding-bottom:10px;
+font-weight:normal;
+}
+
+
